@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="default.css">
+    <base href="http://localhost/onlinevotingsystem/CSS/" /> 
+</head>
+<body>
+    <div class="area">
+    </div>
+    <div class="context" style="top:15vh">
+        <h1>Login Form</h1>
+    <div class="form-style">
+        <form method=POST action="login_user.php" autocomplete="off">
+            <table>    
+                    <td>
+                        <i><label>Username</label></i><br>
+                        <input type="textbox" name="username" id="username" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i><label>Password</label></i><br>
+                        <input type="password" name="password" id="password" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="Submit" id="Submit"> &nbsp;&nbsp;&nbsp;
+                        <input type="reset" name="Reset" id="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
