@@ -24,12 +24,12 @@ Technologies :
 	- XAMPP Server
 
 
-
+![](Images/home.png)
 # Contributors
 1. Dhruv Saini  
      . LinkedIN - https://www.linkedin.com/in/dhruv73
 
-     
+    
      
 # SQL Database
 	1. Create a new Database 'Voting'.
